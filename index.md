@@ -18,11 +18,16 @@ Here is the Budget for my Project
 
 Here is the Project Schedule/Gantt Chart for the project
 
+![gantt chart](https://user-images.githubusercontent.com/43181567/47050518-a9ca1100-d16e-11e8-99f8-abb6f7a2d0af.PNG)
+
 # Week-2 - Sept-11
 
 The Proposal of the project is given below
 
+![proposal](https://user-images.githubusercontent.com/43181567/47050519-a9ca1100-d16e-11e8-94a1-91569708e7a5.png)
+
 # Week-1 - Sept-04
 
 The idea of the project was discussed with the professor and group members were finalised. 
-The name of the project was decided as HUMBER CAMPUS NAVIGATOR
+The name of the project was decided as 
+# HUMBER CAMPUS NAVIGATOR
