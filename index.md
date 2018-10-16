@@ -1,4 +1,4 @@
-Week-5 - Oct-2
+# Week-5 - Oct-2
 
 I purchased Raspberry pi from Amazon.ca
 
@@ -8,19 +8,19 @@ I purchased the sensor from robotshop.com
 
 ![robotshopbill](https://user-images.githubusercontent.com/43181567/47049705-14c61880-d16c-11e8-8cce-6dd2eb901e12.png)
 
-Week-4 - Sept-25
+# Week-4 - Sept-25
 
 Here is the Budget for my Project
 
-Week-3 - Sept-18
+# Week-3 - Sept-18
 
 Here is the Project Schedule/Gantt Chart for the project
 
-Week-2 - Sept-11
+# Week-2 - Sept-11
 
 The Proposal of the project is given below
 
-Week-1 - Sept-04
+# Week-1 - Sept-04
 
 The idea of the project was discussed with the professor and group members were finalised. 
 The name of the project was decided as HUMBER CAMPUS NAVIGATOR
