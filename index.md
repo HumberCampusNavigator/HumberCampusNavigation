@@ -12,6 +12,8 @@ I purchased the sensor from robotshop.com
 
 Here is the Budget for my Project
 
+![budget](https://user-images.githubusercontent.com/43181567/47050517-a9ca1100-d16e-11e8-802e-e4492f145e6d.png)
+
 # Week-3 - Sept-18
 
 Here is the Project Schedule/Gantt Chart for the project
