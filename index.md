@@ -1,3 +1,11 @@
+# Week-7 - Oct-16
+
+I recieved all the hardwares ordered during the Week-5 and started the assembly of the breadboard.
+
+# Week-6 - Oct-9
+
+This week I worked on the pseudo codes and UML diagram of the project. There was no class this week as it was our reading week.
+
 # Week-5 - Oct-2
 
 I purchased Raspberry pi from Amazon.ca
