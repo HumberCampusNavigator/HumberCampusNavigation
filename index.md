@@ -1,11 +1,11 @@
 # Week-8 - Oct-23
- This week I finished the breadboarding of the sensor, wiring it to the Raspberry pi and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. After connecting the sensor with the raspberry pi, I was successfull in getting the readings from the sensor. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the SDOG on the sensor low, ie, by connecting SDOG to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future.
+ This week I finished the breadboarding of the sensor, wiring it to the Raspberry pi and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. After connecting the sensor with the raspberry pi, I was successfull in getting the readings from the sensor. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the terminal SDO_G on the sensor low, ie, by connecting terminal SDO_G to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future.
  
-   # Readings as Expected
+# Readings as Expected
 ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
-   # Readings from Sensor with Unexpected Results
+# Readings from Sensor with Unexpected Results
 ![first](https://user-images.githubusercontent.com/43181567/47402425-845f7900-d713-11e8-99f1-5df29760bdd8.png)
-   # Sensor wired with Raspberry pi
+# Sensor wired with Raspberry pi
 ![wired](https://user-images.githubusercontent.com/43181567/47402430-8590a600-d713-11e8-9d7d-0f8aa296ec67.png) 
 
 # Week-7 - Oct-16
