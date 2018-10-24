@@ -1,6 +1,11 @@
+# Week-8 - Oct-23
+ This week I finished the breadboarding of the sensor, wiring it to the Raspberry pi and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. After connecting the sensor with the raspberry pi, I was successfull in getting the readings from the sensor. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the SDOG on the sensor low, ie, by connecting SDOG to Ground.
+ 
+ 
+
 # Week-7 - Oct-16
 
-I recieved all the hardwares ordered during the Week-5 and started the assembly of the breadboard.
+I setup the raspberry pi with the Raspbian Operating System installed on a 16 GB memory card which is  inserted into the memory card slot of the raspberry pi. Further, I recieved all other hardwares ordered during the Week-5 and started to research on the assembly of the breadboard.
 
 # Week-6 - Oct-9
 
