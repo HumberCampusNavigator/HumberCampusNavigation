@@ -1,3 +1,10 @@
+# Week-9 - Oct-30
+ This week I finished the PCB design and send it to Prototype Lab of Humber College for its making. One PCB will be attched on to the Raspberry pi and my sensor will be attached to the PCB. The image below is the PCB designed. In the image below, the Orange wires shows wiring under the PCB, that will not be visible after attaching to the raspberry pi. The Yellow lines are wiring on the top portion of the PCB. The sensor will come on top of the PCB. You could also see the round images which connects orange lines and yellow lines, which are called 'VIA' are used to connect the wiring from below to the top wiring.
+ 
+  This week, when I reviewed the progress of the project, it is a good feeling that the project is progressing as expected. All milestones are being covered on time. Budget of the project is also as expected. No extra expenses incurred yet.
+  
+![pcb design](https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png)
+
 # Week-8 - Oct-23
  This week I finished the breadboarding of the sensor, wiring it to the Raspberry pi and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. After connecting the sensor with the raspberry pi, I was successfull in getting the readings from the sensor. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the terminal SDO_G on the sensor low, ie, by connecting terminal SDO_G to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future.
  
