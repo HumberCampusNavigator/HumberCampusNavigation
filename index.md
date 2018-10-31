@@ -8,7 +8,7 @@
 # Week-8 - Oct-23
  This week I finished the breadboarding of the sensor, wiring it to the Raspberry pi and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. 
  
- ![sensors_raspi_lsm9ds0_i2c_bb](https://user-images.githubusercontent.com/43181567/47765256-74114600-dc9f-11e8-82ab-57d1a6c7cd05.png)
+ ![breadboard](https://user-images.githubusercontent.com/43181567/47765308-c0f51c80-dc9f-11e8-91ae-60b8e82cea00.png)
  
  After connecting the sensor with the raspberry pi, I was successfull in getting the readings from the sensor. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the terminal SDO_G on the sensor low, ie, by connecting terminal SDO_G to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future to set up the connection, no need to find the ip address assigned.
  
