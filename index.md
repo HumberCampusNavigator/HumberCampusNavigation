@@ -9,7 +9,7 @@
 # Week-9 - Oct-30
  This week I finished the PCB design and send it to Prototype Lab of Humber College for its making. One PCB will be attched on to the Raspberry pi and my sensor will be attached to the PCB. The image below is the PCB designed. In the image below, the Orange wires shows wiring under the PCB, that will not be visible after attaching to the raspberry pi. The Yellow lines are wiring on the top portion of the PCB. The sensor will come on top of the PCB. You could also see the round images with black core, which connects orange lines and yellow lines, which are called 'VIA', are used to connect the wiring from down side of PCB to the top side of PCB.
  
-  This week, when I reviewed the progress of the project, it is a good feeling that the project is progressing as expected. All milestones are being covered on time. Budget of the project is also as expected. No extra expenses incurred yet.
+  This week, when I reviewed the <a href="https://user-images.githubusercontent.com/43181567/47050518-a9ca1100-d16e-11e8-99f8-abb6f7a2d0af.PNG">progress</a> of the project, it is a good feeling that the project is progressing as expected. All <a href="https://user-images.githubusercontent.com/43181567/47050518-a9ca1100-d16e-11e8-99f8-abb6f7a2d0af.PNG">milestones</a> are being covered on time. <a href="https://user-images.githubusercontent.com/43181567/47050517-a9ca1100-d16e-11e8-802e-e4492f145e6d.png">The Budget</a> of the project is also as expected. No extra expenses incurred yet.
   
 ![pcb design](https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png)
 
