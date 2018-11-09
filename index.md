@@ -63,6 +63,7 @@ Here is the Project Schedule/Gantt Chart for the project
 
 The Proposal of the project is given below. In this project, the android application will get readings from a sensor and will display it to the users while using the application. The sensor that I am using is <a href="https://www.adafruit.com/product/2021">LSM9DSO</a>. Details about the sensor can be found in https://www.adafruit.com/product/2021 .In this project I am building an hardware unit which reads the data from the sensors and tranfer it to a database so that the application can read from the database. For this I need a Raspberry pi and the sensor as the main components and then some wires and a PCB to power up the unit and to connect the components together.
 ![sensor lsm9dso](https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg)
+![raspberrypi](https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png)
 ![proposal](https://user-images.githubusercontent.com/43181567/47050519-a9ca1100-d16e-11e8-94a1-91569708e7a5.png)
 
 # Week-1 - Sept-04
