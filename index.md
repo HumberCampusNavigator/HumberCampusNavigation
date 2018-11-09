@@ -1,7 +1,7 @@
 # HUMBER CAMPUS NAVIGATOR
 
 # Week-10 - Nov-06
- This week I got the PCB that I <a href="https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png">designed</a> actually built. It was my very first experience like this and was really amazing to have a PCB designed by me itself. After getting the PCB, I soldered my <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> with the PCB, but not directly. I used an header which I soldered on top part of the PCB directly and then I inserted my sensor to the header. Again I soldered another header to the other part of the PCB and connected the header to the pins of Raspberry pi.
+ This week I got the PCB that I <a href="https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png">designed</a> actually built. It was my very first experience like this and was really amazing to have a PCB designed by me itself. After getting the PCB, I soldered my <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> with the PCB, but not directly. I used an header which I soldered on top part of the PCB directly and then I inserted my sensor to the header. Again I soldered another header to the other part of the PCB and connected the header to the pins of <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a>.
  
  ![blog2](https://user-images.githubusercontent.com/43181567/48283711-4ceb0f00-e42b-11e8-811c-390f9df38c10.jpeg)
  ![blog1](https://user-images.githubusercontent.com/43181567/48283710-4ceb0f00-e42b-11e8-9058-3f58cf3142cd.jpeg)
@@ -62,8 +62,11 @@ Here is the Project Schedule/Gantt Chart for the project
 # Week-2 - Sept-11
 
 The Proposal of the project is given below. In this project, the android application will get readings from a sensor and will display it to the users while using the application. The sensor that I am using is <a href="https://www.adafruit.com/product/2021">LSM9DSO</a>. Details about the sensor can be found in https://www.adafruit.com/product/2021 .In this project I am building an hardware unit which reads the data from the sensors and tranfer it to a database so that the application can read from the database. For this I need a Raspberry pi and the sensor as the main components and then some wires and a PCB to power up the unit and to connect the components together.
+# The Sensor
 ![sensor lsm9dso](https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg)
+# The Raspberry Pi
 ![raspberrypi](https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png)
+# The Proposal
 ![proposal](https://user-images.githubusercontent.com/43181567/47050519-a9ca1100-d16e-11e8-94a1-91569708e7a5.png)
 
 # Week-1 - Sept-04
