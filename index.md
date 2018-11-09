@@ -1,5 +1,5 @@
 # Week-10 - Nov-06
- This week I got the PCB that I designed actually built. It was my very first experience like this and was really amazing to have a PCB designed by me itself. After getting the PCB, I soldered my sensor with the PCB, but not directly. I used an header which I soldered on top part of the PCB directly and then I inserted my sensor to the header. Again I soldered another header to the other part of the PCB and connected the header to the pins of Raspberry pi.
+ This week I got the PCB that I <a href="https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png">designed</a> actually built. It was my very first experience like this and was really amazing to have a PCB designed by me itself. After getting the PCB, I soldered my sensor with the PCB, but not directly. I used an header which I soldered on top part of the PCB directly and then I inserted my sensor to the header. Again I soldered another header to the other part of the PCB and connected the header to the pins of Raspberry pi.
  
  ![blog2](https://user-images.githubusercontent.com/43181567/48283711-4ceb0f00-e42b-11e8-811c-390f9df38c10.jpeg)
  ![blog1](https://user-images.githubusercontent.com/43181567/48283710-4ceb0f00-e42b-11e8-9058-3f58cf3142cd.jpeg)
