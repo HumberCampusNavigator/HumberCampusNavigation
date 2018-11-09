@@ -9,18 +9,18 @@
  Since there need a connection between the third and eighth pin of the sensor, I needed to connect it on the PCB with a small wire. Actually it is to make the SDO_G pin of the <a href="![sensor lsm9dso](https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg)">sensor</a> low which will give the readings on 6a insted of 6b. Eventhough I made this connection on the PCB, since there was no actual 'VIA' connection, I needed to do this, otherwise need to redesign and make a brand new one. This was a good experience for me which I think will be helpfull in solving real world problems too.
  ![blog3](https://user-images.githubusercontent.com/43181567/48283712-4d83a580-e42b-11e8-80e1-8e7a8995e9b7.jpeg)
 # Week-9 - Oct-30
- This week I finished the PCB design and send it to Prototype Lab of Humber College for its making. One PCB will be attched on to the Raspberry pi and my sensor will be attached to the PCB. The image below is the PCB designed. In the image below, the Orange wires shows wiring under the PCB, that will not be visible after attaching to the raspberry pi. The Yellow lines are wiring on the top portion of the PCB. The sensor will come on top of the PCB. You could also see the round images with black core, which connects orange lines and yellow lines, which are called 'VIA', are used to connect the wiring from down side of PCB to the top side of PCB.
+ This week I finished the PCB design and send it to Prototype Lab of Humber College for its making. One PCB will be attched on to the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> and my sensor will be attached to the PCB. The image below is the PCB designed. In the image below, the Orange wires shows wiring under the PCB, that will not be visible after attaching to the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a>. The Yellow lines are wiring on the top portion of the PCB. The sensor will come on top of the PCB. You could also see the round images with black core, which connects orange lines and yellow lines, which are called 'VIA', are used to connect the wiring from down side of PCB to the top side of PCB.
  
   This week, when I reviewed the <a href="https://user-images.githubusercontent.com/43181567/47050518-a9ca1100-d16e-11e8-99f8-abb6f7a2d0af.PNG">progress</a> of the project, it is a good feeling that the project is progressing as expected. All <a href="https://user-images.githubusercontent.com/43181567/47050518-a9ca1100-d16e-11e8-99f8-abb6f7a2d0af.PNG">milestones</a> are being covered on time. <a href="https://user-images.githubusercontent.com/43181567/47050517-a9ca1100-d16e-11e8-802e-e4492f145e6d.png">The Budget</a> of the project is also as expected. No extra expenses incurred yet.
   
 ![pcb design](https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png)
 
 # Week-8 - Oct-23
- This week I finished the breadboarding of the sensor, wiring it to the Raspberry pi and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. 
+ This week I finished the breadboarding of the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a>, wiring it to the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> and connecting the raspberry pi to a screen using HDMI/VGA cables & also through VCN. 
  
  ![breadboard](https://user-images.githubusercontent.com/43181567/47765308-c0f51c80-dc9f-11e8-91ae-60b8e82cea00.png)
  
- After connecting the sensor with the raspberry pi, I was successfull in getting the readings from the sensor. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the terminal SDO_G on the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> low, ie, by connecting terminal SDO_G to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future to set up the connection, no need to find the ip address assigned.
+ After connecting the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> with the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a>, I was successfull in getting the readings from the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a>. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the terminal SDO_G on the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> low, ie, by connecting terminal SDO_G to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future to set up the connection, no need to find the ip address assigned.
  
 # Readings as Expected
 ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
@@ -43,7 +43,7 @@ I purchased Raspberry pi from Amazon.ca
 
 ![amazonbill](https://user-images.githubusercontent.com/43181567/47049698-11329180-d16c-11e8-81d5-18eb4ec82cfb.png)
 
-I purchased the sensor from robotshop.com
+I purchased the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> from robotshop.com
 
 ![robotshopbill](https://user-images.githubusercontent.com/43181567/47049705-14c61880-d16c-11e8-8cce-6dd2eb901e12.png)
 
