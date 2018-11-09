@@ -68,5 +68,5 @@ The Proposal of the project is given below. In this project, the android applica
 # Week-1 - Sept-04
 
 The idea of the project was discussed with the professor and group members were finalised. 
-The name of the project was decided as 
+The name of the project was decided as, 
 # HUMBER CAMPUS NAVIGATOR
