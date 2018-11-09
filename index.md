@@ -1,9 +1,11 @@
 # Week-10 - Nov-06
  This week I got the PCB that I designed actually built. It was my very first experience like this and was really amazing to have a PCB designed by me itself. After getting the PCB, I soldered my sensor with the PCB, but not directly. I used an header which I soldered on top part of the PCB directly and then I inserted my sensor to the header. Again I soldered another header to the other part of the PCB and connected the header to the pins of Raspberry pi.
+ 
+ ![blog2](https://user-images.githubusercontent.com/43181567/48283711-4ceb0f00-e42b-11e8-811c-390f9df38c10.jpeg)
  ![blog1](https://user-images.githubusercontent.com/43181567/48283710-4ceb0f00-e42b-11e8-9058-3f58cf3142cd.jpeg)
-![blog2](https://user-images.githubusercontent.com/43181567/48283711-4ceb0f00-e42b-11e8-811c-390f9df38c10.jpeg)
-![blog3](https://user-images.githubusercontent.com/43181567/48283712-4d83a580-e42b-11e8-80e1-8e7a8995e9b7.jpeg)
+
  Since there need a connection between the third and eighth pin of the sensor, I needed to connect it on the PCB with a small wire. Actually it is to make the SDO_G pin low which will give the readings on 6a insted of 6b. Eventhough I made this connection on the PCB, since there was no actual 'VIA' connection, I needed to do this, otherwise need to redesign and make a brand new one. This was a good experience for me which I think will be helpfull in solving real world problems too.
+ ![blog3](https://user-images.githubusercontent.com/43181567/48283712-4d83a580-e42b-11e8-80e1-8e7a8995e9b7.jpeg)
 # Week-9 - Oct-30
  This week I finished the PCB design and send it to Prototype Lab of Humber College for its making. One PCB will be attched on to the Raspberry pi and my sensor will be attached to the PCB. The image below is the PCB designed. In the image below, the Orange wires shows wiring under the PCB, that will not be visible after attaching to the raspberry pi. The Yellow lines are wiring on the top portion of the PCB. The sensor will come on top of the PCB. You could also see the round images with black core, which connects orange lines and yellow lines, which are called 'VIA', are used to connect the wiring from down side of PCB to the top side of PCB.
  
