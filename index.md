@@ -1,4 +1,5 @@
 # HUMBER CAMPUS NAVIGATOR
+https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampusNavigator-CoralDraw/Pi2CaseX6.cdr
 ![whatsapp image 2018-11-20 at 5 41 24 pm](https://user-images.githubusercontent.com/43181567/48807491-abe23b00-eceb-11e8-8c7f-59baf00bae6f.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm 1](https://user-images.githubusercontent.com/43181567/48807492-abe23b00-eceb-11e8-9f5a-143c627abe76.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm](https://user-images.githubusercontent.com/43181567/48807493-ac7ad180-eceb-11e8-80ae-30af35c69a8d.jpeg)
