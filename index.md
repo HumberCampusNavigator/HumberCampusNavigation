@@ -1,15 +1,15 @@
 # HUMBER CAMPUS NAVIGATOR
 
 # Week-12 - Nov-20
- This week I am supposed to do my enclosure. It simple means to protest the working piece of hardware enclosed in a secure case to protect the unit from the external damages. So to do that, im my case, I need to design an acrylic case for my Raspberry Pi and the PCB with sensor attached to it. To design the case, I used Coral Draw software provided by the college. The case design was a good challenge and I now know to design something for 2D printing using the CoralDraw software. It was a good experience and it was not difficult as expected. After the designing part, I got my case printed on acrylic material and, I now just need to put the whole unit into the case and lock it. It was an easy job. The base of the Raspberry Pi was screwed to the base of the case to make the unit intact with the case. The screws were provided by the prototype lab of the college. Now my hardware piece with the case looks beautifull as in the pictures.  
-# Images of the Hardware Unit built 
+ This week I am supposed to do my enclosure. It simply means to protect the working piece of my hardware enclosed in a secure case to protect the unit from external damages. So to do that, I need to design an acrylic case for my <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> which encloses the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> attched to the PCB. To design the case, I used <a href="https://www.coreldraw.com/en/">CorelDraw</a> software provided by the college. Staff of the prototype lab helped to understand the software and were great support. The case design was a good challenge and I now know to design something for 2D printing using the <a href="https://www.coreldraw.com/en/">CorelDraw</a> software. It was a good experience and it was not difficult as expected. I got my case printed on the acrylic material and, I now just need to put the whole unit into the case and lock it. It was an easy job. The board of the Raspberry Pi was screwed to the base of the case to make the unit immovable and intact with the case. The screws were provided by the prototype lab of the college. Now my hardware piece with the case looks beautiful as are in the pictures below.  
+ # Images of the Hardware Unit built 
 ![whatsapp image 2018-11-20 at 5 41 24 pm](https://user-images.githubusercontent.com/43181567/48807491-abe23b00-eceb-11e8-8c7f-59baf00bae6f.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm 1](https://user-images.githubusercontent.com/43181567/48807492-abe23b00-eceb-11e8-9f5a-143c627abe76.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm](https://user-images.githubusercontent.com/43181567/48807493-ac7ad180-eceb-11e8-80ae-30af35c69a8d.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 26 pm](https://user-images.githubusercontent.com/43181567/48807495-ac7ad180-eceb-11e8-970e-85bc3c8a9aef.jpeg)
-# Follow this link to download the Coral Draw codes for the below design.
+ # Follow this link to download the <a href="https://www.coreldraw.com/en/">CorelDraw</a> codes for the below design.
 https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampusNavigator-CoralDraw/Pi2CaseX6.cdr
-# The design of the case using Coral Draw software
+ # The design of the case using <a href="https://www.coreldraw.com/en/">CorelDraw</a> software
 ![whatsapp image 2018-11-20 at 5 41 26 pm 1](https://user-images.githubusercontent.com/43181567/48807494-ac7ad180-eceb-11e8-9a7a-947465b7f728.jpeg)
 # Week-11 - Nov-19
  Hurray, I could finally get the real values out of the readings from my <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> successfully using a <a href="http://ozzmaker.com/python-code-for-berryimu-accelerometer-gyroscope-magnetometer-pressure-sensor/">software</a>. The readings were got using 'main.py' inside the software. I changed the address from 6B to 6A in the file 'adafruit_lsm9ds0.py' and the software detected the readings and outputed the values as shown below. I needed to do this because in Week-8 of my project, I changed the output of the sensor from 6B to 6A by making the SDO_G terminal low. The software file I changed is located at "usr/local/lib/python3.5/dist-packages/adafruit_lsm9ds0.py" on my <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a>. But it took really long time to figure out what was the error. I am back on my <a href="https://user-images.githubusercontent.com/43181567/47050518-a9ca1100-d16e-11e8-99f8-abb6f7a2d0af.PNG">schedule</a> now. The link of the place from where I downloaded my software is http://ozzmaker.com/python-code-for-berryimu-accelerometer-gyroscope-magnetometer-pressure-sensor/ . Next week, that is tomorrow I need to finish my enclosure.
@@ -41,11 +41,11 @@ https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampu
  
  After connecting the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> with the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a>, I was successfull in getting the readings from the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a>. But the reading that was supposed to be at the location 6A was coming at 6B. This error was rectified by making the terminal SDO_G on the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> low, ie, by connecting terminal SDO_G to Ground. I also assigned static ip for the raspberry pi because, each time when I connect through VCN, it is easy in future to set up the connection, no need to find the ip address assigned.
  
-# Readings as Expected
+ # Readings as Expected
 ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
-# Readings from Sensor with Unexpected Results
+ # Readings from Sensor with Unexpected Results
 ![first](https://user-images.githubusercontent.com/43181567/47402425-845f7900-d713-11e8-99f1-5df29760bdd8.png)
-# Sensor wired with Raspberry pi
+ # Sensor wired with Raspberry pi
 ![wired](https://user-images.githubusercontent.com/43181567/47402430-8590a600-d713-11e8-9d7d-0f8aa296ec67.png) 
 
 # Week-7 - Oct-16
@@ -81,11 +81,11 @@ Here is the Project Schedule/Gantt Chart for the project
 # Week-2 - Sept-11
 
 The Proposal of the project is given below. In this project, the android application will get readings from a sensor and will display it to the users while using the application. The sensor that I am using is <a href="https://www.adafruit.com/product/2021">LSM9DSO</a>. Details about the sensor can be found in https://www.adafruit.com/product/2021 .In this project I am building an hardware unit which reads the data from the sensors and tranfer it to a database so that the application can read from the database. For this I need a Raspberry pi and the sensor as the main components and then some wires and a PCB to power up the unit and to connect the components together.
-# The Sensor
+ # The Sensor
 ![sensor lsm9dso](https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg)
-# The Raspberry Pi
+ # The Raspberry Pi
 ![raspberrypi](https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png)
-# The Proposal
+ # The Proposal
 ![proposal](https://user-images.githubusercontent.com/43181567/47050519-a9ca1100-d16e-11e8-94a1-91569708e7a5.png)
 
 # Week-1 - Sept-04
