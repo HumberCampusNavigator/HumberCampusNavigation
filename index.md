@@ -3,7 +3,7 @@
 # Week-13 - Nov-27
 
 This is the link of the Power Point presentation by me to be held next week,
-https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/master/CENG317.pptx
+https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/master/Powerpoint.pptx
 
 # Week-12 - Nov-20
  This week I am supposed to do my enclosure. It simply means to protect the working piece of my hardware enclosed in a secure case to protect the unit from external damages. So to do that, I need to design an acrylic case for my <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> which encloses the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> attched to the PCB. To design the case, I used <a href="https://www.coreldraw.com/en/">CorelDraw</a> software provided by the college. Staff of the prototype lab helped to understand the software and were great support. The case design was a good challenge and I now know to design something for 2D printing using the <a href="https://www.coreldraw.com/en/">CorelDraw</a> software. It was a good experience and it was not difficult as expected. I got my case printed on the acrylic material and, I now just need to put the whole unit into the case and lock it. It was an easy job. The board of the Raspberry Pi was screwed to the base of the case to make the unit immovable and intact with the case. The screws were provided by the prototype lab of the college. Now my hardware piece with the case looks beautiful as are in the pictures below.  
