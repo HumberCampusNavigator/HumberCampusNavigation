@@ -5,11 +5,11 @@
 ```
 The above diagram explaines how LSM9DS0 sensor can be used to build an hardware unit which 
 can be used to record the readings coming from the sensor using a Raspberry Pi. The sensor 
-should be solderedd to an header pin and the header pin's other end should be soldered to 
-a PCB. The PCB in trun is soldered to another header pin on the opposite side where the 
-sensor is attached. The second header pin is then attached to the IO pins of the Raspberry Pi. 
-This whole unit is enclosed in an acrylic case for safety. The Raspberry Pi needs power and 
-should be connected to a Virtual connection (wired/wireless) for operating Raspberry Pi 
+should be solderedd to an header pin and the header pin's other end should be  soldered to 
+a PCB. The PCB  in trun is  soldered to another header pin  on the opposite side where the 
+sensor is attached. The second header pin is then attached to the IO pins of the Raspberry 
+Pi. This whole unit is enclosed in an acrylic case for safety. The Raspberry Pi needs power
+and should be connected to a Virtual connection (wired/wireless) for operating Raspberry Pi 
 remotely by which we can read the values coming from the sensor.
 ```
 
