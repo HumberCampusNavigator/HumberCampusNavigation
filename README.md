@@ -21,7 +21,8 @@ read the values coming from the sensor.
 ![budget for readme](https://user-images.githubusercontent.com/43181567/49680505-0f49c800-fa63-11e8-8a2a-7a919d381014.PNG)
 
   You can also expect some shipping charges for the components if you are ordering online. You will also need a Laptop or a Desktop to set up the Virtual Connection and operate the Raspberry Pi. Also for printing a 'PCB' and an enclosure(Hard case that holds the entire unit) you might need the help of a Prototype Lab, the cost of which I havent included here. You can get the Raspberry Pi, breadboad & Jumper Wires from Amazon.ca and the LSM9DS0 sensor from robotshop.com. There are several online portals that sell these items, you can shop around and find the cheapest one. This data is just for an overall idea about the budget.
-  You can see the pictures of the major components below,
+  
+#### You can see the pictures of the major components below,
 ### The Sensor
 ![sensor lsm9dso](https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg)
 ### The Raspberry Pi
