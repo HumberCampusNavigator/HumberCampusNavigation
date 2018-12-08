@@ -14,9 +14,27 @@ read the values coming from the sensor.
 ```
 ## The Components needed to make the Unit and its Cost
 
-- LSM9DS0 sensor
-- Raspberry Pi(Model-3B+)
-- 
+  If you are a student of a college or University, you most probably will have a Parts Kit which can be used here. You dont need to buy all those things, that you already have which reduces the budget significantly. Anyhow for people starting from scratch I am including all the components needed for the project.
+  
+  All prices are in Canadian Dollars and include Taxes where ever applicable.
+
+- LSM9DS0 sensor                                        - 27
+- Raspberry Pi(Model-3B+) Kit                           - 87
+  (Includes Header Pins, 16GB SD card, Power adapter)
+- Bread Board                                           - 05
+- Jumper Wires                                          - 04
+
+### Total - 123
+
+  You can also expect some shipping charges for the components if you are ordering online. You will also need a Laptop or a Desktop to set up the Virtual Connection and operate the Raspberry Pi. Also for printing a 'PCB' and an enclosure(Hard case that holds the entire unit) you might need the help of a Prototype Lab, the cost of which I havent included here. You can get the Raspberry Pi, breadboad & Jumper Wires from Amazon.ca and the LSM9DS0 sensor from robotshop.com. There are several online portals that sell these items, you can shop around and find the cheapest one. This data is just for an overall idea about the budget.
+
+## Step by Step Instructions for building the Unit.
+
+### Step-1
+
+  
+
+
   
 
 
