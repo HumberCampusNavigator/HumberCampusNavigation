@@ -34,7 +34,7 @@ read the values coming from the sensor.
   The first step is to set up the Raspberry Pi. Raspbian is the Operating System for the Raspberry Pi. We will flash Raspbian OS on a 16 GB SD card and insert it into the Raspberry Pi. Raspbian OS is free and can be downloaded online. If the flashing was successfull, when giving power to Raspberry Pi and connecting it to a display, will detect and boot the Raspbian OS automatically. For the first time, we need a mouse and a keyboard to set up the Virtual Connection (VCN) for Raspberry Pi, by giving input and Wi-Fi credentials.
 
 ### Step-2
-  Second step is to check whether the sensor is in working condition. For that we need to find out the wiring diagram of the Sensor output to the specific I2C address on the Raspberry Pi. We are expected to get readings in two addresses as per the wiring diagram shown below. The address are '6a' and '1d' of the Raspberry Pi.
+  Second step is to check whether the sensor is in working condition. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific I2C address on the Raspberry Pi. We are expected to get readings in two addresses as per the wiring diagram shown below. The address are '6a' and '1d' of the Raspberry Pi.
 
 
   
