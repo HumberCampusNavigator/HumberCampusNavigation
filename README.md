@@ -37,8 +37,12 @@ read the values coming from the sensor.
   Second step is to check whether the sensor is in working condition. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific pins on the Raspberry Pi. We are expected to get readings in two addresses after the wiring of sensor and Raspberry Pi as shown below. The addresses where we get readings are '6a' and '1d' of the Raspberry Pi.
   
   ![wiring for readme](https://user-images.githubusercontent.com/43181567/49758374-c412fd80-fc8c-11e8-95a8-93683e93447f.PNG)
+  
+#### Sensor wired with Raspberry pi
+  ![wired](https://user-images.githubusercontent.com/43181567/47402430-8590a600-d713-11e8-9d7d-0f8aa296ec67.png) 
 
-#### Readings After Wiring
+#### Readings as Expected
+  ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
 
 
 
