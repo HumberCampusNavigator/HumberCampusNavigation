@@ -14,7 +14,7 @@ read the values coming from the sensor.
 ```
 ## The Components needed to make the Unit and its Cost
 
-  If you are a student of a college or University, you most probably will have a Parts Kit which can be used here. You dont need to buy all those things, that you already have which reduces the budget significantly. Anyhow for people starting from scratch I am including all the components needed for the project.
+  If you are a student of a college or University, you most probably will have a Parts Kit which can be used here. You don't need to buy all those things, that you already have which reduces the budget significantly. I am including all the components needed for the project excluding items that are expected to be with students.
   
   All prices are in Canadian Dollars and include Taxes where ever applicable.
   
@@ -31,7 +31,8 @@ read the values coming from the sensor.
 ## Step by Step Instructions for building the Unit.
 
 ### Step-1
-  The first step is to set up the Raspberry Pi. Raspbian is the Operating System for the Raspberry Pi. We will flash Raspbian OS on a 16 GB SD card and insert it into the Raspberry Pi. Raspbian OS is free and can be downloaded online. If the flashing was successfull, when giving power to Raspberry Pi and connecting it to a display, will detect and boot the Raspbian OS automatically. For the first time, we need a mouse and a keyboard to set up the Virtual Connection (VCN) for Raspberry Pi, by giving input and Wi-Fi credentials.
+  The first step is to set up the Raspberry Pi. Raspbian is the Operating System for the Raspberry Pi. We will flash Raspbian OS on a 16 GB SD card and insert it into the Raspberry Pi. Raspbian OS is free and can be downloaded online. If the flashing was successfull, when giving power to Raspberry Pi and connecting it to a display, will detect and boot the Raspbian OS automatically. For the first time, we need a mouse and a keyboard to set up the Virtual Connection (using VNC Viewer) for Raspberry Pi, by giving input and Wi-Fi credentials.
+For setting up a virtual connection for remote operation of the unit we need to install VNC Viewer on Raspberry Pi and on the Desktop/Laptop which we use to remotely control Raspberry Pi. The details of how to install and setup VNC viewer can be found by clicking <a href="https://www.raspberrypi.org/documentation/remote-access/vnc/">here</a>.
 
 ### Step-2
   Second step is to check whether the sensor is in working condition. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific pins on the Raspberry Pi. We are expected to get readings in two addresses after the wiring of sensor and Raspberry Pi as shown below. The addresses where we get readings are '6a' and '1d' of the Raspberry Pi. To get the readings after connection open a terminal on the Raspberry Pi and give the command 'i2cdetect  -y 1'.
