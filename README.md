@@ -31,8 +31,8 @@ read the values coming from the sensor.
 ## Step by Step Instructions for building the Unit.
 
 ### Step-1
-  The first step is to set up the Raspberry Pi. Raspbian is the Operating System for the Raspberry Pi. We will flash Raspbian OS on a 16 GB SD card and insert it into the Raspberry Pi. Raspbian OS is free and can be downloaded online. If the flashing was successfull, when giving power to Raspberry Pi and connecting it to a display, will detect and boot the Raspbian OS automatically. For the first time, we need a mouse and a keyboard to set up the Virtual Connection (using VNC Viewer) for Raspberry Pi, by giving input and Wi-Fi credentials.
-For setting up a virtual connection for remote operation of the unit we need to install VNC Viewer on Raspberry Pi and on the Desktop/Laptop which we use to remotely control Raspberry Pi. The details of how to install and setup VNC viewer can be found by clicking <a href="https://www.raspberrypi.org/documentation/remote-access/vnc/">here</a>.
+  The first step is to set up the Raspberry Pi. Raspbian is the Operating System for the Raspberry Pi. We will flash Raspbian OS on a 16 GB SD card and insert it into the Raspberry Pi. Raspbian OS is free and can be downloaded online. The flashing instructions can be found <a href="https://www.raspberrypi.org/documentation/installation/installing-images/">here</a> and if the flashing was successfull, when giving power to Raspberry Pi and connecting it to a display, will detect and boot the Raspbian OS automatically. For the first time, we need a mouse and a keyboard connected to Raspberry Pi to set up the Virtual Connection (using VNC Viewer) for Raspberry Pi, by giving input and Wi-Fi credentials. For setting up a virtual connection for remote operation of the unit we need to install VNC Viewer on Raspberry Pi and on the Desktop/Laptop which we use to remotely control Raspberry Pi. The details of how to install and setup VNC viewer can be found by clicking <a href="https://www.raspberrypi.org/documentation/remote-access/vnc/">here</a>.
+
 
 ### Step-2
   Second step is to check whether the sensor is in working condition. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific pins on the Raspberry Pi. We are expected to get readings in two addresses after the wiring of sensor and Raspberry Pi as shown below. The addresses where we get readings are '6a' and '1d' of the Raspberry Pi. To get the readings after connection open a terminal on the Raspberry Pi and give the command 'i2cdetect  -y 1'.
@@ -44,6 +44,9 @@ For setting up a virtual connection for remote operation of the unit we need to 
 
 #### Readings as Expected
   ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
+  
+### Step-3
+  Once we make sure that our Raspberry Pi and sensor is working, we can start the designing of PCB soldering of components.
 
 
 
