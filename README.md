@@ -54,10 +54,10 @@ read the values coming from the sensor.
   ![blog3](https://user-images.githubusercontent.com/43181567/48283712-4d83a580-e42b-11e8-80e1-8e7a8995e9b7.jpeg)  
   ![blog1](https://user-images.githubusercontent.com/43181567/48283710-4ceb0f00-e42b-11e8-9058-3f58cf3142cd.jpeg)
   ![blog2](https://user-images.githubusercontent.com/43181567/48283711-4ceb0f00-e42b-11e8-811c-390f9df38c10.jpeg)
-  
 
-
-
+### Step-4
+   After attaching the sensor on to the PCB and then the PCB on to the Raspberry Pi will take out all wirings and the sensor is now connected to the Raspberry Pi with the help of PCB and header pins which are all soldered each other appropriately to make a single unit. Now in this step we need to install a python software specific for our sensor in the Raspberry Pi so that the software will process the raw signals coming from the sensor into human readable values. The measured values of Accelerometer, Gyroscope, Magnetometer and Temperature are expected. The python software for this is readily available from this <a href="http://ozzmaker.com/python-code-for-berryimu-accelerometer-gyroscope-magnetometer-pressure-sensor/">link</a>. All the necessary instructions for installing the software is given in this link. This software expects an output in the address '6b'. Since we are expecting the reading in '6a' address, a minor change need to be done before running the software. I changed the address from 6B to 6A in the file 'adafruit_lsm9ds0.py' and the software detected the readings and outputed the values as shown below.We need to do this because output of the sensor has been changed from '6b' to '6a' by making the SDO_G terminal of the sensor low. The software file I changed is located at "usr/local/lib/python3.5/dist-packages/adafruit_lsm9ds0.py" on my <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a>. The readings will come when running 'main.py' inside the software.
+   ![whatsapp image 2018-11-19 at 1 35 15 pm 1](https://user-images.githubusercontent.com/43181567/48727577-a956e700-ec00-11e8-939c-4a5b10ac2c11.jpeg) 
 
   
 
