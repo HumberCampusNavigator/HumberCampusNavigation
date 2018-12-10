@@ -46,7 +46,9 @@ read the values coming from the sensor.
   ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
   
 ### Step-3
-  Once we make sure that our Raspberry Pi and sensor is working, we can start the designing of PCB  and <a href="https://www.youtube.com/watch?v=3230nCz3XQA">soldering</a>(Please read <a href="https://safety.eng.cam.ac.uk/safe-working/copy_of_soldering-safety">safety measures</a>) of components. Designing a PCB can be done using fritzing software. Click <a href="http://fritzing.org/learning/">here</a> to get insructions on how to use fritzing. 
+  Once we make sure that our Raspberry Pi and sensor is working, we can start the designing of PCB  and <a href="https://www.youtube.com/watch?v=3230nCz3XQA">soldering</a>(Please read <a href="https://safety.eng.cam.ac.uk/safe-working/copy_of_soldering-safety">safety measures</a>) of components. Designing a PCB can be done using fritzing software. Click <a href="http://fritzing.org/learning/">here</a> to get insructions on how to use fritzing. This is the image of the fritzing file generated specifically for this sensor and Raspberry Pi. You can download the below fritzing file from this <a href="https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/master/Fritzing.zip">link in zip format</a>.
+  
+  ![pcb design](https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png)
 
 
 
