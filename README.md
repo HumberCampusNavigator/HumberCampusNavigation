@@ -35,7 +35,7 @@ read the values coming from the sensor.
 
 
 ### Step-2
-  Second step is to check whether the sensor is in working condition. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific pins on the Raspberry Pi. We are expected to get readings in two addresses after the wiring of sensor and Raspberry Pi as shown below. The addresses where we get readings are '6a' and '1d' of the Raspberry Pi. To get the readings after connection open a terminal on the Raspberry Pi and give the command 'i2cdetect  -y 1'.
+  Second step is to check whether the sensor is in working condition. First we should <a href="https://www.youtube.com/watch?v=3230nCz3XQA">solder</a> an header pin on to the sensor, so that the sensor can be inserted into a breadboard. Before start soldering please read this <a href="https://safety.eng.cam.ac.uk/safe-working/copy_of_soldering-safety">document</a> for your own safety. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific pins on the Raspberry Pi. We are expected to get readings in two addresses after the wiring of sensor and Raspberry Pi as shown below. The addresses where we get readings are '6a' and '1d' of the Raspberry Pi. To get the readings after connection open a terminal on the Raspberry Pi and give the command 'i2cdetect  -y 1'.
   
   ![wiring for readme](https://user-images.githubusercontent.com/43181567/49758374-c412fd80-fc8c-11e8-95a8-93683e93447f.PNG)
   
@@ -46,7 +46,7 @@ read the values coming from the sensor.
   ![second1](https://user-images.githubusercontent.com/43181567/47402636-9988d780-d714-11e8-8801-65fb05d1cb4f.PNG)
   
 ### Step-3
-  Once we make sure that our Raspberry Pi and sensor is working, we can start the designing of PCB soldering of components.
+  Once we make sure that our Raspberry Pi and sensor is working, we can start the designing of PCB  and <a href="https://www.youtube.com/watch?v=3230nCz3XQA">soldering</a>(<a href="https://safety.eng.cam.ac.uk/safe-working/copy_of_soldering-safety">safety measures</a>) of components.
 
 
 
