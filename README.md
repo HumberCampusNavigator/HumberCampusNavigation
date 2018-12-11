@@ -63,8 +63,8 @@ read the values coming from the sensor.
   ![pcb design](https://user-images.githubusercontent.com/43181567/47764834-57740e80-dc9d-11e8-9220-53d7898e6b8d.png)
 
   Once you are done with the PCB design, you should take this file to a lab where PCB's can be printed out and get it printed out. Once you get the PCB board printed out, you should solder two header pins onto the PCB. One stack header pin of <a href="https://canada.newark.com/adafruit/2223/40-pin-pi-gpio-stacking-header/dp/31AC4582?gclid=EAIaIQobChMIo4ejjLOW3wIVQbjACh2MeQRJEAYYBCABEgISn_D_BwE&CAGPSPN=pla&CAWELAID=120185770002227709&CAAGID=23354969332&CMP=KNC-GCA-GEN-SHOPPING&CATCI=pla-294680686006">40 pins (two 20 pins in parallel)</a> to be soldered to PCB so that the PCB can be securely attached to the Raspberry Pi. Another single line 10 pin stack header pin to be soldered on the other side of the PCB where the sensor can be attached to the PCB securely. The following images will make the idea clear.
-  ![blog3](https://user-images.githubusercontent.com/43181567/48283712-4d83a580-e42b-11e8-80e1-8e7a8995e9b7.jpeg)  
-  ![blog1](https://user-images.githubusercontent.com/43181567/48283710-4ceb0f00-e42b-11e8-9058-3f58cf3142cd.jpeg)
+  ![oneone](https://user-images.githubusercontent.com/43181567/49830618-ba0dff00-fd5f-11e8-9c32-1e6d9d4d1e11.PNG)
+  ![twotwo](https://user-images.githubusercontent.com/43181567/49830619-ba0dff00-fd5f-11e8-9ad5-326729c29fac.PNG)
   ![blog2](https://user-images.githubusercontent.com/43181567/48283711-4ceb0f00-e42b-11e8-811c-390f9df38c10.jpeg)
 
 ### Step-4
