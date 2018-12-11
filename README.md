@@ -1,6 +1,10 @@
 ### Build Instructions for using 'LSM9DS0 9-axis Accelerometer, Magnetometer, Gyroscope & Temperature Sensor' on a Raspberry Pi
 
-In this Project, the aim is to give step by step instructions to build an hardware unit that measures the values coming from the LSM9DS0 <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a>. I will be discussing the components needed to build the unit, how much it might cost, various tools that we might need while building up a unit, how to use that tools, and the key factors that should be taken care of . We will start with the system diagram,
+In this Project, the aim is to give step by step instructions to build an hardware unit that measures the values coming from the LSM9DS0 <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a>. I will be discussing the components needed to build the unit, how much it might cost, various tools that we might need while building up a unit, how to use that tools, and the key factors that should be taken care of . 
+
+Following these six instructions for a student, it might take 5 to 10 weeks for completion of an hardware unit. If it is for a mass production one can use the design and codes readily available with the instructions and build it in a single day if all parts are readily available. 
+
+We will start with the system diagram,
 
 ## System Diagram of the Hardware
 ![system diagram paint](https://user-images.githubusercontent.com/43181567/49611645-29ef4480-f970-11e8-9987-dfd604e5d199.png)
@@ -60,8 +64,13 @@ read the values coming from the sensor.
    ![whatsapp image 2018-11-19 at 1 35 15 pm 1](https://user-images.githubusercontent.com/43181567/48727577-a956e700-ec00-11e8-939c-4a5b10ac2c11.jpeg)
    
 ### Step-5
-   Now the next step is the enclosure. It simply means to protect the working piece of your hardware get enclosed in a secure case to protect the unit from external damages. So to do that, you need to design an acrylic case for the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> which encloses the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> attched to the PCB. To design the case, you can use <a href="https://www.coreldraw.com/en/">CorelDraw</a> software. This is the link to download the <a href="https://www.coreldraw.com/en/">CorelDraw</a> codes for the below design.
+   Now the next step is the enclosure. It simply means to protect the working piece of your hardware get enclosed in a secure case to protect the unit from external damages. So to do that, you need to design an acrylic case for the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> which encloses the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> attched to the PCB. To design the case, you can use <a href="https://www.coreldraw.com/en/">CorelDraw</a> software. 
+   
+   Here for this unit there are 6 faces and each faces are designed separately with relative measurements taken for locks that holds the unit as an whole. 
+   
+   This is the link to download the <a href="https://www.coreldraw.com/en/">CorelDraw</a> codes for the below design.
 https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampusNavigator-CoralDraw/Pi2CaseX6.cdr
+
 #### The design of the case using <a href="https://www.coreldraw.com/en/">CorelDraw</a> software
 ![whatsapp image 2018-11-20 at 5 41 26 pm 1](https://user-images.githubusercontent.com/43181567/48807494-ac7ad180-eceb-11e8-9a7a-947465b7f728.jpeg)
 #### Images of the Hardware Unit built 
@@ -69,6 +78,10 @@ https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampu
 ![whatsapp image 2018-11-20 at 5 41 25 pm 1](https://user-images.githubusercontent.com/43181567/48807492-abe23b00-eceb-11e8-9f5a-143c627abe76.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm](https://user-images.githubusercontent.com/43181567/48807493-ac7ad180-eceb-11e8-80ae-30af35c69a8d.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 26 pm](https://user-images.githubusercontent.com/43181567/48807495-ac7ad180-eceb-11e8-970e-85bc3c8a9aef.jpeg)
+
+### Step-6
+   The last step is to test the unit after the enclosure so that we can make sure that our hardware unit works perfect. So the testing of the components at the beginning, then after soldering and then at the last are helpfull to make sure that our unit building is progressing fine. This also helps to eliminate errors as we go.
+   
 
   
 
