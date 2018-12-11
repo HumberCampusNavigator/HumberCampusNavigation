@@ -1,6 +1,6 @@
 ### Build Instructions for using 'LSM9DS0 9-axis Accelerometer, Magnetometer, Gyroscope & Temperature Sensor' on a Raspberry Pi
 
-In this Project, the aim is to give step by step instructions to build an hardware unit that measures the values coming from the LSM9DS0 <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a>. I will be discussing the components needed to build the unit, how much it might cost, various tools that we might need while building up a unit, how to use that tools, and the key factors that should be taken care of . 
+In this Project, the aim is to give step by step instructions to build an hardware unit that measures the values coming from the LSM9DS0 <a href="https://www.adafruit.com/product/2021">sensor</a>. I will be discussing the components needed to build the unit, how much it might cost, various tools that we might need while building up a unit, how to use that tools, and the key factors that should be taken care of . 
 
 Following these six instructions for a student, it might take 5 to 10 weeks for completion of an hardware unit. If it is for a mass production one can use the design and codes readily available with the instructions and build it in a single day if all parts are readily available. 
 
