@@ -66,7 +66,7 @@ read the values coming from the sensor.
 ### Step-5
    Now the next step is the enclosure. It simply means to protect the working piece of your hardware get enclosed in a secure case to protect the unit from external damages. So to do that, you need to design an acrylic case for the <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> which encloses the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> attched to the PCB. To design the case, you can use <a href="https://www.coreldraw.com/en/">CorelDraw</a> software. 
    
-   Here for this unit there are 6 faces and each faces are designed separately with relative measurements taken for locks that holds the unit as an whole. 
+   Here for this unit there are 6 faces and each faces are designed separately with relative measurements taken for locks that holds the unit as an whole.Before assempling the faces, don't forget to screw the Raspberry Pi to the base piece so that the unit is firm with the whole case.
    
    This is the link to download the <a href="https://www.coreldraw.com/en/">CorelDraw</a> codes for the below design.
 https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampusNavigator-CoralDraw/Pi2CaseX6.cdr
