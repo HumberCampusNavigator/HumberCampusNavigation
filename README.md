@@ -40,6 +40,12 @@ read the values coming from the sensor.
 
 ### Step-2
   Second step is to check whether the <a href="https://user-images.githubusercontent.com/43181567/48284781-778a9700-e42e-11e8-9d20-d70dc913a38f.jpg">sensor</a> is in working condition. First we should <a href="https://www.youtube.com/watch?v=3230nCz3XQA">solder</a> a <a href="https://www.aimagin.com/pin-header-long-single-row.html">9 pin header pin</a> on to the sensor, so that the sensor can be inserted into a breadboard. Before start soldering please read this <a href="https://safety.eng.cam.ac.uk/safe-working/copy_of_soldering-safety">document</a> for your own safety. We need to get the raw readings from the sensor on the specific I2C address of the Raspberry Pi. For that we need to find out the wiring diagram of the Sensor output to the specific pins on the Raspberry Pi. We are expected to get readings in two addresses after the wiring of sensor and <a href="https://user-images.githubusercontent.com/43181567/48285231-f46a4080-e42f-11e8-9b14-ac0aec60a713.png">Raspberry Pi</a> as shown below. The addresses where we get readings are '6a' and '1d' of the Raspberry Pi. To get the readings after connection open a terminal on the Raspberry Pi and give the command 'i2cdetect  -y 1'.
+#### Connections:
+  - Pin 1 from Raspberry Pi to 3V3 of Sensor
+  - Pin 2 from Raspberry Pi to SDA of Sensor
+  - Pin 3 from Raspberry Pi to SCL of Sensor
+  - Pin 5 from Raspberry Pi to GND of Sensor
+  - SDOG from Sensor to GND of Sensor
   
   ![wiring for readme](https://user-images.githubusercontent.com/43181567/49758374-c412fd80-fc8c-11e8-95a8-93683e93447f.PNG)
   
