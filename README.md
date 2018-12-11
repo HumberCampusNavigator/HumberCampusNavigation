@@ -1,21 +1,23 @@
 ### Build Instructions for using 'LSM9DS0 9-axis Accelerometer, Magnetometer, Gyroscope & Temperature Sensor' on a Raspberry Pi
 
+![whatsapp image 2018-11-20 at 5 41 26 pm](https://user-images.githubusercontent.com/43181567/48807495-ac7ad180-eceb-11e8-970e-85bc3c8a9aef.jpeg)
+
 In this Project, the aim is to give step by step instructions to build an hardware unit that measures the values coming from the LSM9DS0 <a href="https://www.adafruit.com/product/2021">sensor</a>. I will be discussing the components needed to build the unit, how much it might cost, various tools that we might need while building up a unit, how to use that tools, and the key factors that should be taken care of . 
 
-Following these six instructions for a student, it might take 5 to 10 weeks for completion of an hardware unit. If it is for a mass production one can use the design and codes readily available with the instructions and build it in a single day if all parts are readily available. 
+Following these six instructions for a student, it might take a couple of days for completion of an hardware unit. But the shipping time of hardware parts will increase the time needed for completion for a student. If it is for mass production, one can use the design and codes readily available with the instructions, and build around 15 units in a single day, provided all parts are readily available.
 
 We will start with the system diagram,
 
 ## System Diagram of the Hardware
 ![system diagram paint](https://user-images.githubusercontent.com/43181567/49611645-29ef4480-f970-11e8-9987-dfd604e5d199.png)
-```
-  The above diagram explaines how LSM9DS0 sensor can be used to build an hardware unit  which can be used to record the readings coming 
+
+  The above diagram explaines how LSM9DS0 sensor can be used to build an hardware unit which can be used to record the readings coming 
 from the sensor using a Raspberry Pi. The sensor should be solderedd to an header pin and the header pin's other end should be soldered
-to  a  PCB. The PCB  in trun is soldered to  another header pin  on the opposite side  where the sensor is attached.  The second header 
-pin is then attached to  the I/O pins of the Raspberry Pi.  This whole unit is enclosed in an acrylic case for safety. The Raspberry Pi
-needs  power  and should be connected to a Virtual  connection (wired/wireless) for operating  Raspberry Pi  remotely  by  which we can 
+to a PCB. The PCB in trun is soldered to another header pin on the opposite side where the sensor is attached. The second header 
+pin is then attached to the I/O pins of the Raspberry Pi. This whole unit is enclosed in an acrylic case for safety. The Raspberry Pi
+needs power and should be connected to a Virtual connection(wired/wireless) for operating Raspberry Pi remotely by which we can 
 read the values coming from the sensor.
-```
+
 ## The Components needed to make the Unit and its Cost
 
   If you are a student of a college or University, you most probably will have a Parts Kit which can be used here. You don't need to buy all those things, that you already have, which reduces the budget significantly. I am including all the components needed for the project, excluding items that are expected to be with students.
@@ -83,7 +85,6 @@ https://github.com/HumberCampusNavigator/HumberCampusNavigation/blob/HumberCampu
 ![whatsapp image 2018-11-20 at 5 41 24 pm](https://user-images.githubusercontent.com/43181567/48807491-abe23b00-eceb-11e8-8c7f-59baf00bae6f.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm 1](https://user-images.githubusercontent.com/43181567/48807492-abe23b00-eceb-11e8-9f5a-143c627abe76.jpeg)
 ![whatsapp image 2018-11-20 at 5 41 25 pm](https://user-images.githubusercontent.com/43181567/48807493-ac7ad180-eceb-11e8-80ae-30af35c69a8d.jpeg)
-![whatsapp image 2018-11-20 at 5 41 26 pm](https://user-images.githubusercontent.com/43181567/48807495-ac7ad180-eceb-11e8-970e-85bc3c8a9aef.jpeg)
 
 ### Step-6
    The last step is to test the unit after the enclosure so that we can make sure that our hardware unit works perfect. So the testing of the components at the beginning, then after soldering and then at the last are helpfull to make sure that our unit building is progressing fine. This also helps to eliminate errors as we go.
